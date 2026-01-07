@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <article>
+      <img src="download.jfif" alt="" />
+      <div>
+        <section id="like">
+          <span id="totalLike">0</span>
+          <i class="bi bi-hand-thumbs-up-fill"></i>
+        </section>
+        <section id="shareBtn">
+          <span id="totaShare">0</span>
+          <i class="bi bi-share-fill"></i>
+        </section>
+        <section id="btnComment">
+          <span id="totlaCommnets">0</span>
+          <i class="bi bi-chat-heart"></i>
+        </section>
+      </div>
+      <section class="comments">
+        <div class="comment-write">
+          <input type="text" placeholder="Name..." class="titleuser" required />
+          <textarea
+            placeholder="message"
+            class="clienMessage"
+            required
+          ></textarea>
+          <button id="btnSend"><i class="bi bi-send-plus-fill"></i></button>
+        </div>
+        <ul class="showComments"></ul>
+      </section>
+    </article>
+  </body>
+<script src="app.js"></script>
+</html>
